@@ -1,0 +1,16 @@
+Source: heads-keyring
+Section: misc
+Priority: optional
+Maintainer: Ivan J. <parazyd@dyne.org>
+Build-Depends: debhelper (>= 9), gnupg, gawk
+Homepage: https://github.com/headslive/heads-keyring
+Standards-Version: 3.9.8
+Vcs-Browser: https://github.com/headslive/heads-keyring
+Vcs-Git: https://github.com/headslive/heads-keyring.git
+Rules-Requires-Root: no
+
+Package: heads-keyring
+Architecture: all
+Multi-Arch: foreign
+Recommends: gnupg (>= 1.0.6-4)
+Description: GnuPG keys of heads developers.
